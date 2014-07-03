@@ -1,2 +1,10 @@
 <template name="dashboard">
+{{#each messages}}
+  <div>{{message}}</div><span><a href="#" class="edit"><i class="fa fa-pencil"></i></a></span> - {{userEmail}}
+  {{#if messageOwner}}
+    <a href="#" class="delete"><i class="fa fa-trash-o"></i></a>
+  {{/if}}
+{{/each}}
+
+{{> addMessage}}
 </template>

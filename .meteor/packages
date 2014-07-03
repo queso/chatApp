@@ -15,3 +15,7 @@ accounts-password
 handlebars-server
 blaze-layout
 minimongoid
+accounts-twitter
+simple-form
+persistent-session
+jasmine-unit
