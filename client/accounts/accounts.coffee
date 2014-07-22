@@ -1,6 +1,9 @@
 Meteor.startup ->
   Accounts.ui.config
     passwordSignupFields: 'EMAIL_ONLY'
+    requestPermissions: {
+      facebook: ['public_profile', 'user_friends', 'user_work_history']
+    }
 
   AccountsEntry.config
     homeRoute: '/'

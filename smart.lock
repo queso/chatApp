@@ -13,14 +13,11 @@
       },
       "minimongoid": {},
       "persistent-session": {},
-      "velocity": {
-        "git": "https://github.com/xolvio/velocity.git",
-        "branch": "master"
-      },
       "jasmine-unit": {
         "git": "https://github.com/xolvio/jasmine-unit.git",
         "branch": "master"
-      }
+      },
+      "facebook-server-methods": {}
     },
     "packages": {
       "iron-router": {
@@ -31,7 +28,7 @@
       "accounts-entry": {
         "git": "https://github.com/Differential/accounts-entry.git",
         "branch": "master",
-        "commit": "0ffa30af57418a49540f610ad8496c35534994be"
+        "commit": "73f231b8cefa5d78b399200dd69877e83ea5cf1f"
       },
       "handlebars-server": {
         "git": "https://github.com/EventedMind/meteor-handlebars-server.git",
@@ -48,15 +45,15 @@
         "tag": "v0.1.4",
         "commit": "38c104fe4f9af24d16047d344af44e38e0a9e7a9"
       },
-      "velocity": {
-        "git": "https://github.com/xolvio/velocity.git",
-        "branch": "master",
-        "commit": "597b90570b588838215e99efc4a527c6616a914b"
-      },
       "jasmine-unit": {
         "git": "https://github.com/xolvio/jasmine-unit.git",
         "branch": "master",
-        "commit": "c9abcf72fe247058839a9ca64a64dd5ad925d99d"
+        "commit": "885dde77a96390d0fd31b03756f837f482db2ef1"
+      },
+      "facebook-server-methods": {
+        "git": "https://github.com/premosystems/meteor-facebook-server-methods",
+        "tag": "v0.1.0",
+        "commit": "70fe4de1185a66d354e6d2adc60cd217fb10304b"
       },
       "blaze-layout": {
         "git": "https://github.com/EventedMind/blaze-layout.git",
@@ -78,10 +75,20 @@
         "tag": "v2.3.3",
         "commit": "4a5d70eee48fbd90a6e6fc78747250d704a0b3bb"
       },
+      "velocity": {
+        "git": "https://github.com/xolvio/velocity.git",
+        "tag": "v0.1.14",
+        "commit": "a79260e019e385dce09a67f1017f90d3143a12d9"
+      },
       "package-stubber": {
         "git": "https://github.com/alanning/meteor-package-stubber.git",
-        "tag": "v0.0.7",
-        "commit": "f6d76ae3c9107d25e42bc5b297a8799145e99f73"
+        "tag": "v0.0.15",
+        "commit": "62ad08f8486aacbbc5ec22ea6e2a31573748b7d7"
+      },
+      "facebook-node-sdk": {
+        "git": "https://github.com/timbroddin/meteor-facebook-node-sdk.git",
+        "tag": "v0.1.0",
+        "commit": "031e1c55f6da43a68bd01255422b2e7bf508ac38"
       }
     }
   }

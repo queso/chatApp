@@ -19,3 +19,5 @@ accounts-twitter
 simple-form
 persistent-session
 jasmine-unit
+accounts-facebook
+facebook-server-methods

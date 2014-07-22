@@ -10,13 +10,10 @@
     },
     "minimongoid": {},
     "persistent-session": {},
-    "velocity": {
-      "git": "https://github.com/xolvio/velocity.git",
-      "branch": "master"
-    },
     "jasmine-unit": {
       "git": "https://github.com/xolvio/jasmine-unit.git",
       "branch": "master"
-    }
+    },
+    "facebook-server-methods": {}
   }
 }
